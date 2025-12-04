@@ -1,0 +1,14 @@
+{
+  "name": "simple-web-proxy",
+  "version": "1.0.0",
+  "description": "Simple web proxy for accessing websites",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "2.0.6"
+  },
+  "scripts": {
+    "start": "node api/proxy.js"
+  }
+}
