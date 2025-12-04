@@ -1,0 +1,12 @@
+{
+  "name": "simple-vercel-proxy",
+  "version": "1.0.0",
+  "description": "Simple web proxy for Vercel (for testing and learning).",
+  "main": "api/proxy.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
